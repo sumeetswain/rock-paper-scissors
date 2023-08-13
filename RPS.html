@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="rps.css">
+    <script src="rps.js"></script>
+</head>
+
+<body>
+    <h1 id="player1">Player 1</h1>
+    <form id="form1">
+        <input type="button" value="Rock" onclick="input1('Rock')">
+        <input type="button" value="Paper" onclick="input1('Paper')">
+        <input type="button" value="Scissors" onclick="input1('Scissors')">
+        <br>
+        <input class="finish" id="finish1" type="button" value="Finish" onclick="hide()">
+    </form>
+
+
+    <h1 id="player2">Player 2</h1>
+    <form id="form2">
+        <input type="button" value="Rock" onclick="input2('Rock')">
+        <input type="button" value="Paper" onclick="input2('Paper')">
+        <input type="button" value="Scissors" onclick="input2('Scissors')">
+        <br>
+        <input class="finish" id="finish" type="button" value="Finish" onclick="winner()">
+    </form>
+
+</body>
+
+</body>
+
+
+</html>

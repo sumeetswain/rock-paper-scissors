@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-color: rgb(233 124 124);
+}
+
+h1 {
+    margin: 30px 0px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(3,200px);
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+#player2 {
+    position: relative;
+    top: 25vh;
+}
+
+#form2 {
+    position: relative;
+    top: 25vh;
+    display: none;
+}
+
+input {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0px 20px;
+    background-color: rgb(85 185 180);
+    cursor: pointer;
+    border-radius: 5px;
+}
